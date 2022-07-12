@@ -18,7 +18,7 @@
           },
           "trigger": {
             "kind": "wait-time",
-            "thresholdSeconds": "00:20:00"
+            "thresholdSeconds": 20
           }
         }
       }
@@ -33,7 +33,7 @@
           "MaxWaitTimeExceeded": {
             "trigger": {
               "kind": "wait-time",
-              "thresholdSeconds": "00:20:00"
+              "thresholdSeconds": 20
             },
             "actions": {
               "MoveJobToEscalatedQueue": {
