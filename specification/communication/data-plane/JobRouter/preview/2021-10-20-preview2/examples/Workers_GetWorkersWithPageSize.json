@@ -9,50 +9,56 @@
       "body": {
         "value": [
           {
-            "id": "DefaultWorker",
-            "state": "active",
-            "queueAssignments": {
-              "MainQueue": {},
-              "SecondaryQueue": {}
-            },
-            "totalCapacity": 100,
-            "labels": {},
-            "tags": {},
-            "channelConfigurations": {
-              "CustomChatChannel": {
-                "capacityCostPerJob": 10
+            "routerWorker": {
+              "id": "DefaultWorker",
+              "state": "active",
+              "queueAssignments": {
+                "MainQueue": {},
+                "SecondaryQueue": {}
               },
-              "CustomVoiceChannel": {
-                "capacityCostPerJob": 100
-              }
+              "totalCapacity": 100,
+              "labels": {},
+              "tags": {},
+              "channelConfigurations": {
+                "CustomChatChannel": {
+                  "capacityCostPerJob": 10
+                },
+                "CustomVoiceChannel": {
+                  "capacityCostPerJob": 100
+                }
+              },
+              "offers": [],
+              "assignedJobs": [],
+              "loadRatio": 0,
+              "availableForOffers": true
             },
-            "offers": [],
-            "assignedJobs": [],
-            "loadRatio": 0,
-            "availableForOffers": true
+            "etag": "etag"
           },
           {
-            "id": "SecondWorker",
-            "state": "active",
-            "queueAssignments": {
-              "MainQueue": {},
-              "SecondaryQueue": {}
-            },
-            "totalCapacity": 100,
-            "labels": {},
-            "tags": {},
-            "channelConfigurations": {
-              "CustomEmailChannel": {
-                "capacityCostPerJob": 10
+            "routerWorker": {
+              "id": "SecondWorker",
+              "state": "active",
+              "queueAssignments": {
+                "MainQueue": {},
+                "SecondaryQueue": {}
               },
-              "CustomSMSChannel": {
-                "capacityCostPerJob": 100
-              }
+              "totalCapacity": 100,
+              "labels": {},
+              "tags": {},
+              "channelConfigurations": {
+                "CustomEmailChannel": {
+                  "capacityCostPerJob": 10
+                },
+                "CustomSMSChannel": {
+                  "capacityCostPerJob": 100
+                }
+              },
+              "offers": [],
+              "assignedJobs": [],
+              "loadRatio": 0,
+              "availableForOffers": true
             },
-            "offers": [],
-            "assignedJobs": [],
-            "loadRatio": 0,
-            "availableForOffers": true
+            "etag": "etag"
           }
         ],
         "nextLink": "null"

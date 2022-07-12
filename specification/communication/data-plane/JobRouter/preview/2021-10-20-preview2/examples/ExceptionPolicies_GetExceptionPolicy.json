@@ -13,7 +13,7 @@
           "MaxWaitTimeExceeded": {
             "trigger": {
               "kind": "wait-time",
-              "threshold": "00:20:00"
+              "thresholdSeconds": "00:20:00"
             },
             "actions": {
               "MoveJobToEscalatedQueue": {

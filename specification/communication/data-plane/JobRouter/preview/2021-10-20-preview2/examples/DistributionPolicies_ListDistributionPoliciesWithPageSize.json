@@ -9,26 +9,32 @@
       "body": {
         "value": [
           {
-            "id": "SecondaryDistributionPolicy",
-            "name": "Secondary",
-            "offerTtlSeconds": 300,
-            "mode": {
-              "kind": "round-robin",
-              "minConcurrentOffers": 1,
-              "maxConcurrentOffers": 2,
-              "bypassSelectors": false
-            }
+            "distributionPolicy": {
+              "id": "SecondaryDistributionPolicy",
+              "name": "Secondary",
+              "offerTtlSeconds": 300,
+              "mode": {
+                "kind": "round-robin",
+                "minConcurrentOffers": 1,
+                "maxConcurrentOffers": 2,
+                "bypassSelectors": false
+              }
+            },
+            "etag": "etag"
           },
           {
-            "id": "MainDistributionPolicy",
-            "name": "Main",
-            "offerTtlSeconds": 300,
-            "mode": {
-              "kind": "longest-idle",
-              "minConcurrentOffers": 1,
-              "maxConcurrentOffers": 5,
-              "bypassSelectors": false
-            }
+            "distributionPolicy": {
+              "id": "MainDistributionPolicy",
+              "name": "Main",
+              "offerTtlSeconds": 300,
+              "mode": {
+                "kind": "longest-idle",
+                "minConcurrentOffers": 1,
+                "maxConcurrentOffers": 5,
+                "bypassSelectors": false
+              }
+            },
+            "etag": "etag"
           }
         ],
         "nextLink": "null"

@@ -9,18 +9,24 @@
       "body": {
         "value": [
           {
-            "id": "MainQueue",
-            "name": "Main",
-            "distributionPolicyId": "MainDistributionPolicy",
-            "labels": {},
-            "exceptionPolicyId": "MainExceptionPolicy"
+            "jobQueue": {
+              "id": "MainQueue",
+              "name": "Main",
+              "distributionPolicyId": "MainDistributionPolicy",
+              "labels": {},
+              "exceptionPolicyId": "MainExceptionPolicy"
+            },
+            "etag": "etag"
           },
           {
-            "id": "SecondaryQueue",
-            "name": "Secondary",
-            "distributionPolicyId": "SecondaryDistributionPolicy",
-            "labels": {},
-            "exceptionPolicyId": "SecondaryExceptionPolicy"
+            "jobQueue": {
+              "id": "SecondaryQueue",
+              "name": "Secondary",
+              "distributionPolicyId": "SecondaryDistributionPolicy",
+              "labels": {},
+              "exceptionPolicyId": "SecondaryExceptionPolicy"
+            },
+            "etag": "etag"
           }
         ],
         "nextLink": "null"
